@@ -1,13 +1,13 @@
 pip install -U scikit-learn
 pip install pickle
 import streamlit as st
-import pickle
-import sklearn
+import pickle as pt
+import sklearn as sk
 import pandas as pd
 import numpy as np
 from PIL import Image
 
-model = pickle.load(open('model.sav', 'rb'))
+model = pt.load(open('model.sav', 'rb'))
 
 st.title('Prediction of Hourly Productivity')
 st.sidebar.header('Input Parameters')

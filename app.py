@@ -1,5 +1,5 @@
-!pip install sklearn
-!pip install pickle
+pip install sklearn
+pip install pickle
 import streamlit as st
 import pickle
 import sklearn

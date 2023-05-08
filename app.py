@@ -1,5 +1,3 @@
-pip install -U scikit-learn
-pip install pickle
 import streamlit as st
 import pickle as pt
 import sklearn as sk
